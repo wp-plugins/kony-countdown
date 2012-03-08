@@ -5,20 +5,24 @@ Donate link: http://plugins.twinpictures.de/plugins/kony-2012-countdown/
 Tags: Kony, Kony 2012, invisible children, countdown, timer, clock, ticker, widget, count down, t minus, t-minus, twinpictures, plguin-oven, pluginoven, G2, spaceBros, jQuery
 Requires at least: 2.8
 Tested up to: 3.3.1
-Stable tag: 0.2
+Stable tag: 0.3
 
 Countdown to events leading to the arrest and prosecution of Joseph Kony in 2012 for crimes against humanity.
 
 == Description ==
 
-Kony 2012 Countdown is a WordPress plugin that counts down to the arrest and prosecution of Joseph Kony in 2012 for his crimes against humanity. The countdown is both a sidebar widget and a shortcode that will place a countdown in a post or page. Help raise awareness of the Invisible Children movement to capture this war criminal and be tried by the International Criminal Court (ICC) as a precedent for future war criminals. Full <a href='http://plugins.twinpictures.de/plugins/kony-2012-countdown/documentation/'>documentation</a> is available, as well as <a href='http://wordpress.org/tags/kony-countdown'>free community support</a>.
+Kony 2012 Countdown is a WordPress plugin that counts down to events leading to the arrest and prosecution of Joseph Kony in 2012 for his crimes against humanity. The countdown runs until April 20, 2012 then auto-updates to Jan 1, 2013. Updates will include new events as they are announced.  
+
+The countdown is both a sidebar widget and a shortcode that will place a countdown in a post or page. Full <a href='http://plugins.twinpictures.de/plugins/kony-2012-countdown/documentation/'>documentation</a> is available, as well as <a href='http://wordpress.org/tags/kony-countdown'>free community support</a>.  
+
+Help raise awareness of the Invisible Children movement to capture this war criminal and be tried by the International Criminal Court (ICC) as a precedent for future war criminals.
 
 == Installation ==
 
 1. Old-school: upload the `kony-countdown` folder to the `/wp-content/plugins/` directory via FTP.  Hipster: Ironically add the Kony 2012 Countdown via the WordPress Plugins menu.
 1. Activate the Plugin
 1. Add the Widget to the desired sidebar in the WordPress Widgets menu.
-1. Configure the `Kony 2012 Countdown' options.
+1. Configure the Kony 2012 Countdown widget options.
 1. Test that the this plugin meets your demanding needs.
 1. Tweak the css files for premium enjoyment.
 1. Rate the plugin and verify that it works at wordpress.org.
@@ -45,6 +49,9 @@ Ah yes! <a href='http://twitter.com/#!/twinpictures'>@Twinpictures</a> is on the
 
 == Changelog ==
 
+= 0.3 =
+* Greatly streamlined script to use less system resources.
+
 = 0.2 =
 * Added missing styles folder SVN can really be a pain.
 
@@ -52,6 +59,10 @@ Ah yes! <a href='http://twitter.com/#!/twinpictures'>@Twinpictures</a> is on the
 * Where once was none, now there's one.
 
 == Upgrade Notice ==
+
+= 0.3 =
+* More efficient countdown script, streamlined to use less resources.
+
 = 0.2 =
 * Missing styles folder has been added.  BLAM svn!
 

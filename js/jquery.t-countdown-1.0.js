@@ -119,9 +119,7 @@
 				before = new Date();
 				$.data($this[0], 'before', before);
 				e = $this;
-				e.children('.t-throbTimer').toggle(1000, function() {
-					e.doCountDown(id, diffSecs-a);
-				});
+				t = setTimeout(function() { e.doCountDown(id, diffSecs-a) } , 1000);
 			}
 		} 
 		else if (cb = $.data($this[0], 'callback')){

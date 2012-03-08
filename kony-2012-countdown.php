@@ -3,7 +3,7 @@
 Plugin Name: Kony 2012 Countdown
 Plugin URI: http://plugins.twinpictures.de/plugins/kony-2012-countdown/
 Description: Countdown to events leading to the arrest and prosecution of Joseph Kony in 2012 for crimes against humanity.
-Version: 0.2
+Version: 0.3
 Author: twinpictures, baden03
 Author URI: http://www.twinpictures.de/
 License: GPL2
@@ -32,7 +32,7 @@ function kony_2012_countdown_init(){
 				wp_enqueue_script('jquery');
 				
 				//lwtCountdown script
-				wp_register_script('countdown-script', $plugin_url.'/js/jquery.lwtCountdown-1.2.js', array ('jquery'), '1.2' );
+				wp_register_script('countdown-script', $plugin_url.'/js/jquery.t-countdown-1.0.js', array ('jquery'), '1.0' );
 				wp_enqueue_script('countdown-script');
 				
 				//css
@@ -216,7 +216,6 @@ class Kony2012Countdown extends WP_Widget {
 				<div class="kony-digit">'.$date['secs'][1].'</div>
 				<div class="kony-digit">'.$date['secs'][2].'</div>
 			</div>
-			<div class="t-throbTimer"></div>
         </div>'; //close the dashboard
 		
         echo '<div id="'.$args['widget_id'].'-bothtml" class="kony-bothtml">';
@@ -509,7 +508,6 @@ function kony2012($atts, $content=null) {
 		$tminus .= '<div class="kony-digit">'.$date_arr['secs'][1].'</div>';
 		$tminus .= '<div class="kony-digit">'.$date_arr['secs'][2].'</div>';
 	$tminus .= '</div>';
-	$tminus .= '<div class="t-throbTimer"></div>';
 	$tminus .= '</div>'; //close the dashboard
 
 	$tminus .= '<div id="'.$id.'-below" class="kony-bothtml">';

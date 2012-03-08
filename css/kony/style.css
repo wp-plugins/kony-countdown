@@ -1,0 +1,101 @@
+/*above the dashboard*/
+.kony-tophtml {
+	margin: 0;
+	padding: 0;
+}
+
+/*above the dashboard*/
+.kony-dashboard {
+	height: 127px;
+	width: 250px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	background: transparent url('images/bg_countdown.png') 0 0 no-repeat;
+}
+
+.kony-dash {
+	width: 44px;
+	height: 44px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 53px;
+	padding-left: 6px;
+	padding-top: 12px;
+	position: relative;
+	color: #FFF;
+}
+
+.kony-tripdash {
+	width: 62px;
+	height: 44px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 53px;
+	padding-left: 6px;
+	padding-top: 12px;
+	padding-top: 50px;
+	position: relative;
+	color: #FFF;
+}
+
+.kony-hours_dash, .kony-minutes_dash, .kony-seconds_dash  {
+	background: transparent url('images/bg_dash.png') 0 0 no-repeat;
+}
+
+.kony-days_dash  {
+	clear: left;
+	margin-left: 10px;
+	background: transparent url('images/bg_dash.png') 0 0 no-repeat;
+}
+
+.kony-days_trip_dash  {
+	clear: left;
+	background: transparent url('images/bg_trip_dash.png') 0 0 no-repeat;
+}
+
+.kony-weeks_dash  {
+	margin-left: 10px;
+	background: transparent url('images/bg_dash.png') 0 0 no-repeat;
+}
+
+.kony-weeks_trip_dash  {
+	margin-left: 10px;
+	background: transparent url('images/bg_trip_dash.png') 0 0 no-repeat;
+}
+
+.kony-digit {
+	font: 16pt Arial;
+	float: left;
+	width: 19px;
+	text-align: center;
+	position: relative;
+}
+
+.kony-dash .kony-dash_title {
+	display: block;
+	position: absolute;
+	text-transform:uppercase;
+	top: 41px;
+	width: 42px;
+	color: #FFF;
+	text-align: center;
+	font-size: 9px;
+}
+
+.kony-tripdash .kony-dash_title {
+	display: block;
+	position: absolute;
+	text-transform: uppercase;
+	top: 41px;
+	width: 60px;
+	color: #FFF;
+	text-align: center;
+	font-size: 9px;
+}
+
+/*below the dashboard*/
+.kony-bothtml {
+	margin: 0;
+	padding: 0;
+}

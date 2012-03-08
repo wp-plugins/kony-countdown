@@ -5,13 +5,13 @@ Donate link: http://plugins.twinpictures.de/plugins/kony-2012-countdown/
 Tags: Kony, Kony 2012, invisible children, countdown, timer, clock, ticker, widget, count down, t minus, t-minus, twinpictures, plguin-oven, pluginoven, G2, spaceBros, jQuery
 Requires at least: 2.8
 Tested up to: 3.3.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 Countdown to events leading to the arrest and prosecution of Joseph Kony in 2012 for crimes against humanity.
 
 == Description ==
 
-Kony 2012 Countdown is a WordPress plugin that counts down to the arrest and prosecution of Joseph Kony in 2012 for his crimes against humanity. The countdown is both a sidebar widget and a shortcode that will place a countdown in a post or page. Help raise awareness of the Invisible Children movement to capture this war criminal and be tried by the International Criminal Court (ICC) as a precedent for future war criminals. Full <a href='http://plugins.twinpictures.de/plugins/kony-2012-countdown/documentation/'>documentation</a> is available, as well as <a href='http://wordpress.org/tags/kony-2012-countdown'>free community support</a>.
+Kony 2012 Countdown is a WordPress plugin that counts down to the arrest and prosecution of Joseph Kony in 2012 for his crimes against humanity. The countdown is both a sidebar widget and a shortcode that will place a countdown in a post or page. Help raise awareness of the Invisible Children movement to capture this war criminal and be tried by the International Criminal Court (ICC) as a precedent for future war criminals. Full <a href='http://plugins.twinpictures.de/plugins/kony-2012-countdown/documentation/'>documentation</a> is available, as well as <a href='http://wordpress.org/tags/kony-countdown'>free community support</a>.
 
 == Installation ==
 
@@ -45,10 +45,15 @@ Ah yes! <a href='http://twitter.com/#!/twinpictures'>@Twinpictures</a> is on the
 
 == Changelog ==
 
+= 0.2 =
+* Added missing styles folder SVN can really be a pain.
+
 = 0.1 =
 * Where once was none, now there's one.
 
 == Upgrade Notice ==
+= 0.2 =
+* Missing styles folder has been added.  BLAM svn!
 
 = 0.1 =
 * Where once was none, now there's one.

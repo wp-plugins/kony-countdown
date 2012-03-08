@@ -3,7 +3,7 @@
 Plugin Name: Kony 2012 Countdown
 Plugin URI: http://plugins.twinpictures.de/plugins/kony-2012-countdown/
 Description: Countdown to events leading to the arrest and prosecution of Joseph Kony in 2012 for crimes against humanity.
-Version: 0.1
+Version: 0.2
 Author: twinpictures, baden03
 Author URI: http://www.twinpictures.de/
 License: GPL2
